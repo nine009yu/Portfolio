@@ -8,7 +8,7 @@ const projects=[
     name:'Smart bottle recycling cabinet',
     year:'2024',
     align:'right',
-    image:'../../public/images/picproject.jpg',
+    image:'/images/picproject.jpg',
     link:"/videos/videoproject.mp4"
     }
 ]
