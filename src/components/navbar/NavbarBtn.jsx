@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { LuArrowDownRight } from "react-icons/lu";
 import { Link } from "react-scroll";
 
@@ -11,7 +11,10 @@ const NavbarBtn = () => {
               <LuArrowDownRight />
           </div>  
       </button>
+      
     </Link>
+
+    
     
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SkillsText from './SkillsText'
 import AllSkills from './AllSkills'
 import AllsSkillsSM from './AllsSkillsSM'
@@ -8,7 +8,7 @@ import {fadeIn} from '../../framerMotion/variant'
 const SkillsMain = () => {
   return (
     <div id='skills'>
-        <div className='max-w-[1300px] px-4 mx-auto min-h-[370px] relative overflow-hidden'>
+        <div className='max-w-[1200px] px-4 mx-auto min-h-[370px] relative overflow-hidden'>
             <motion.div
             variants={fadeIn('down',0.2)} 
             initial='hidden' 

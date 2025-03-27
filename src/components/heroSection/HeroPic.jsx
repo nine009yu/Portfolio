@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { PiHexagonThin } from "react-icons/pi";
 import {motion} from 'framer-motion'
 import {fadeIn} from '../../framerMotion/variant'

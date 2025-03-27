@@ -1,5 +1,17 @@
-import React from 'react'
 import { Link } from "react-scroll";
+function DownloadButton({ fileUrl, fileName }) {
+  const openFile = () => {
+    window.open(fileUrl, "_blank");
+};
+  return (
+      <button
+          onClick={openFile}
+          className="border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan"
+      >
+          Download {fileName}
+      </button>
+  );
+}
 const AboutMeText = () => {
   return (
     <div className='flex flex-col md:items-start sm:items-center md:text-left sm:text-center'>
@@ -10,9 +22,13 @@ const AboutMeText = () => {
         internship where I can grow professionally and contribute to
         exciting and impactful projects.
       </p>
-      <Link to="projects" smooth={true} spy={true} duration={500} offset={-130} className="cursor-pointer"> 
-        <button className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'>My Project</button>
-      </Link>
+      <div className="flex gap-4">
+        <Link to="projects" smooth={true} spy={true} duration={500} offset={-130} className="cursor-pointer"> 
+          <button className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-cyan'>My Project</button>
+        </Link>
+        <DownloadButton fileUrl="/files/Resume.pdf" fileName="Resume" />
+        <DownloadButton fileUrl="/files/Transcript.pdf" fileName="Transcript" />
+      </div>
     </div>
   )
 }

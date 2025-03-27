@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -9,7 +8,6 @@ import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaFlutter } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion'
@@ -58,10 +56,6 @@ const skills=[
     {
     skill:'Mysql',
     icon: SiMysql
-    },
-    {
-    skill:'Firebase',
-    icon: SiFirebase
     },
     {
     skill:'Mongodb',

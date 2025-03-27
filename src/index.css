@@ -7,3 +7,6 @@
 body{
     @apply bg-darkBrown
 }
+html, body {
+    overflow-x: hidden;
+}

@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectsText from './ProjectsText'
 import SingleProject from './SingleProject'
 import {motion} from 'framer-motion'
@@ -9,15 +8,8 @@ const projects=[
     name:'Smart bottle recycling cabinet',
     year:'2024',
     align:'right',
-    image:'../../public/images/nine.jpg',
-    link:'#'
-    },
-    {
-    name:'Smart bottle recycling cabinet',
-    year:'2024',
-    align:'left',
-    image:'../../public/images/nine.jpg',
-    link:'#'
+    image:'../../public/images/picproject.jpg',
+    link:"/videos/videoproject.mp4"
     }
 ]
 const ProjectsMain = () => {
