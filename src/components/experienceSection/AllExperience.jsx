@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import SingleExperience from './SingleExperience'
 import { FaArrowRight } from "react-icons/fa";
 import {motion} from 'framer-motion'
@@ -7,11 +7,14 @@ import { div } from 'motion/react-client';
 
 const experiences=[
     {
-        company:'Computer Clinic',
-        date:'03/2019 - 05/2019',
-        address:'Tanud, DamnoenSaduak, Ratchaburi',
+        company:'United Information Highway',
+        date:'05/2025 - 08/2025',
+        address:'Lat Yao, Chatuchak, Bangkok',
         responsibilities:[
-            'Install Windows','Install the program','Printer repair','Assemble a computer'
+            'Built automated workflows.',
+            'Implemented an incident management system.',
+            'Trained and fine-tuned language models.',
+            'Automated reporting processes.'
         ]
     },
     {
@@ -19,7 +22,9 @@ const experiences=[
         date:'03/2021 - 05/2021',
         address:'Kradangnga, BangKhonthi, SamutSongkhram',
         responsibilities:[
-            'Install Windows','Install the program','Printer repair','Assemble a computer','On-site service','Install CCTV cameras'
+            'Performed on-site and remote troubleshooting for computer hardware and software issues.',
+            'Installed, configured, and repaired various IT equipment, including printers, computers, and CCTV systems.',
+            'Installed and configured over 50+ computers and CCTV systems for clients.'
         ]
     }
 ]

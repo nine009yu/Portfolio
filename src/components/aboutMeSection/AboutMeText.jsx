@@ -20,11 +20,11 @@ const AboutMeText = () => {
   return (
     <div className='flex flex-col md:items-start sm:items-center md:text-left sm:text-center'>
       <h2 className='text-6xl text-cyan mb-10'>About Me</h2>
-      <p className='text-white text-xl'>&emsp;&emsp;I am a student with a strong passion for coding and problemsolving. I have experience <br/>with programming languages like Java,
-        Python, and JavaScript, and am eager to apply <br/>my skills in realworld scenarios. I enjoy working in teams, continuously learning,
-        and improving my programming abilities. I am looking for an
-        internship where I can grow professionally and contribute to
-        exciting and impactful projects.
+      <p className='text-white text-xl'>&emsp;&emsp;AI Engineer with experience in developing AI-driven solutions and workflow automation. Designed and implemented an image processing system for real-time <br/>
+      object detection and classification in a smart recycling cabinet project. Also worked <br/>
+      on NLP text classification to improve data categorization accuracy. Skilled in using <br/>
+      n8n to build automation workflows that integrate multiple tools, reducing repetitive <br/>
+      tasks and saving time for teams.
       </p>
       <div className="flex gap-4">
         <Link to="projects" smooth={true} spy={true} duration={500} offset={-130} className="cursor-pointer"> 
